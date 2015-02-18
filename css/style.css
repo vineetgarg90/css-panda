@@ -1,0 +1,275 @@
+body{
+background-color: yellowgreen;
+}
+
+.panda{
+margin-left: 220px;
+z-index: 10002;
+position: absolute;
+margin-top: 35px;
+}
+
+
+.full_face{
+margin-left: 25px;
+}
+
+.face{
+width: 180px;
+height: 150px;
+background: white;
+border-radius: 100px 100px 65px 65px;  
+position: absolute;
+z-index: 1;
+margin-left: 10px;
+}
+
+.ear{
+background: black;
+width:60px;
+height: 60px;
+border-radius: 30px;  
+position: absolute;
+z-index: 0;
+}
+
+.ear#e2{
+margin-left:140px;
+}
+
+.eye{
+width: 50px;
+height: 40px;
+background: black;
+position: absolute;
+z-index: 1;
+}
+
+.eye#left{
+border-radius: 60px 30px 100px 60px;
+transform: rotate(15deg);
+-webkit-transform: rotate(15deg);
+-ms-transform: rotate(15deg);
+-moz-transform: rotate(15deg);
+margin-left: 30px;
+margin-top: 40px;
+}
+
+.eye#right{
+border-radius: 30px 60px 60px 100px;
+margin-left: 115px;
+margin-top: 40px;
+transform: rotate(-18deg);
+-ms-transform: rotate(-18deg);
+-webkit-transform: rotate(-18deg);
+-moz-transform: rotate(-18deg);
+}
+
+.eye_ball{
+width: 10px;
+height: 10px;
+border: 2px solid white;
+border-radius: 15px;
+}
+
+.eye_ball#left{
+margin-left: 30px;
+margin-top: 10px;
+}
+
+.eye_ball#right{
+margin-left: 5px;
+margin-top: 9px;
+}
+
+.nose{
+width: 25px;
+height: 25px;
+background: black;
+position: absolute;
+margin-left: 86px;
+z-index: 1;
+border-radius: 20px 60px 20px 20px;
+transform: rotate-46deg);
+-ms-transform: rotate-46deg);
+-webkit-transform: rotate(-46deg);
+-moz-transform: rotate-46deg);
+margin-top: 80px;
+}
+
+.mouth{
+margin: 0 auto;
+position: absolute;
+width: 40px;
+height: 13px;
+border-bottom: 8px solid black;
+border-bottom-left-radius: 200px;
+border-bottom-right-radius: 200px;
+float: left;
+margin-left: 69px;
+top: 113px;
+}
+
+.body{
+width: 230px;
+height: 230px;
+background: white;
+margin-top: 130px;
+margin-left: 9px;
+position: absolute;
+border-radius: 138px;
+}
+
+.leg{
+width: 80px;
+height: 85px;
+background: black;
+position: absolute;
+border-radius: 50px;
+}
+
+.leg#right{
+margin-top: 295px;
+margin-left: 42px;
+}
+
+
+.leg#left{
+margin-top: 295px;
+margin-left: 122px;
+}
+
+.leg .inner{
+width: 59px;
+height: 63px;
+background: white;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 18px;
+}
+
+.stick{
+width: 15px;
+height: 340px;
+background: brown;
+position: absolute;
+border-radius: 5px;
+}
+
+.stripe{
+width: 15px;
+height: 2px;
+background: sandybrown;
+margin-top: 40px;
+position: relative;
+}
+
+#s1{
+ transform: rotate(-13deg); 
+ -ms-transform: rotate(-13deg); 
+ -webkit-transform: rotate(-13deg); 
+ -moz-transform: rotate(-13deg); 
+}
+
+#s2{
+margin-left: 46px;
+transform: rotate(10deg);
+-ms-transform: rotate(10deg);
+-webkit-transform: rotate(10deg);
+-moz-transform: rotate(10deg);
+}
+
+#s3{
+margin-left: -55px;
+transform: rotate(-10deg);
+-ms-transform: rotate(-10deg);
+-webkit-transform: rotate(-10deg);
+-moz-transform: rotate(-10deg);
+}
+
+#s4{
+margin-left: 4px;
+transform: rotate(5deg);
+-ms-transform: rotate(5deg);
+-webkit-transform: rotate(5deg);
+-moz-transform: rotate(5deg);
+}
+
+#s5{
+margin-left: -22px;
+transform: rotate(6deg);
+-ms-transform: rotate(6deg);
+-webkit-transform: rotate(6deg);
+-moz-transform: rotate(6deg);
+}
+
+.bush{
+margin-left: 500px;
+}
+
+@-webkit-keyframes wave{
+  0% { 
+    -webkit-transform: rotate(40deg);            
+  }
+  100% { 
+    -webkit-transform: rotate(80deg);    
+  }
+  0% { 
+    -webkit-transform: rotate(40deg);            
+  }
+
+}
+
+
+#left_hand{
+width: 100px;
+height: 50px;
+background: black;
+position: relative;
+left: -60px;
+top: 60px;
+border-radius: 40px 50px 30px 40px;
+transform: rotate(46deg);
+-webkit-transform: rotate(46deg);
+-moz-transform: rotate(46deg);
+
+transition:all 1s;
+
+transform-origin: 90% 50%;
+-webikit-transform-origin: 90% 50%;
+-moz-transform-origin: 90% 50%;
+
+animation: wave 2s infinite;
+-webkit-animation: wave 2s infinite;
+-moz-animation: wave 2s infinite;
+
+
+}
+
+#right_hand{
+width: 100px;
+height: 50px;
+background: black;
+position: absolute;
+right: 20px;
+top: 76px;
+border-radius: 40px 50px 30px 40px;
+transform: rotate(-34deg);
+-ms-transform: rotate(-34deg);
+-webkit-transform: rotate(-34deg); 
+-moz-transform: rotate(-34deg);
+z-index: 1;
+}
+
+ #curve{
+margin: 0 auto;
+position: relative;
+width: 30px;
+height: 20px;
+border-bottom: 4px solid black;
+border-bottom-left-radius: 200px;
+border-bottom-right-radius: 200px;
+float: left;
+margin-left: 100px;
+}
+  
