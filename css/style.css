@@ -211,13 +211,14 @@ margin-left: 500px;
   0% { 
     -webkit-transform: rotate(40deg);            
   }
-  100% { 
+
+  50% { 
     -webkit-transform: rotate(80deg);    
   }
-  0% { 
-    -webkit-transform: rotate(40deg);            
-  }
 
+  0% { 
+    -webkit-transform: rotate(45deg);    
+  }
 }
 
 
@@ -232,18 +233,12 @@ border-radius: 40px 50px 30px 40px;
 transform: rotate(46deg);
 -webkit-transform: rotate(46deg);
 -moz-transform: rotate(46deg);
-
-transition:all 1s;
-
 transform-origin: 90% 50%;
 -webikit-transform-origin: 90% 50%;
 -moz-transform-origin: 90% 50%;
-
 animation: wave 2s infinite;
 -webkit-animation: wave 2s infinite;
 -moz-animation: wave 2s infinite;
-
-
 }
 
 #right_hand{
